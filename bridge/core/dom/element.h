@@ -67,7 +67,6 @@ class Element : public ContainerNode {
 
  protected:
  private:
-
   void _notifyNodeRemoved(Node* node);
   void _notifyChildRemoved();
   void _notifyNodeInsert(Node* insertNode);
